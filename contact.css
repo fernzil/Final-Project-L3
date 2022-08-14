@@ -1,0 +1,120 @@
+.contact1{
+
+    height: 600px;
+    width: 100%;
+    
+    background-position-y: top; 
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+
+}
+
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px plum;
+     
+  }
+  
+  .wrapper h2{
+    text-align: left;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #332902;
+  }
+  
+  .wrapper .input_field{
+    margin-bottom: 10px;
+  }
+  
+  .wrapper .input_field input[type="text"],
+  .wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .wrapper textarea{
+    resize: none;
+    height: 80px;
+  }
+  
+  .wrapper .btn input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 40%;
+    background: plum;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  #error_message{
+    margin-bottom: 20px;
+    background: rgb(207, 96, 207);
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+  }
+  .moreinfo{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px plum;
+  }
+  .moreinfo h3{
+    font-size: 20px;
+    color: plum;
+    text-align: left;
+
+  }
+  .moreinfo img{
+    height: auto;
+    width: 100%;
+    position: relative; 
+    padding: 5px;
+  }
+  .address{
+    position: relative;
+
+  
+  }
+  .addressinfo p{
+    position: absolute;
+    right: 70px;
+    padding: 5px;
+    margin-bottom: 560px;  
+  }
+  .numberinfo p{
+    position: absolute;
+    right: 150px;
+    padding: 5px;
+    margin-bottom: 560px;  
+  }
+  .mailinfo p{
+    position: absolute;
+    right: 110px;
+    padding: 5px;
+    margin-bottom: 560px;  
+  }
